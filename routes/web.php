@@ -25,11 +25,19 @@ Route::get('/', function () {
 
 // Data masyarakat
 Route::get('masyarakat/registrasi',[MasyarakatControll::class,'registrasi']);
+
 Route::post('masyarakat/simpan',[MasyarakatControll::class,'simpan']);
+
 Route::get('masyarakat/login',[MasyarakatControll::class,'login']);
+
 Route::post('masyarakat/login',[MasyarakatControll::class,'cekLogin']);
+
 Route::get('masyarakat/laporan',[MasyarakatControll::class,'laporan']);
 Route::post('masyarakat/laporan',[MasyarakatControll::class,'cekLaporan']);
+
 Route::get('masyarakat/dashboard',[MasyarakatControll::class,'dashboard']);
+
+Route::get('masyarakat/validasi',[MasyarakatControll::class,'validasi']);
+Route::post('masyarakat/validasi',[MasyarakatControll::class,'cekValidasi']);
 
 Route::get('/');

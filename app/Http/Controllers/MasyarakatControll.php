@@ -64,4 +64,8 @@ class MasyarakatControll extends Controller
     public function dashboard(){
         return view('masyarakat.dashboard');
     }
+
+    public function validasi(){
+        return view('masyarakat.validasi');
+    }
 }

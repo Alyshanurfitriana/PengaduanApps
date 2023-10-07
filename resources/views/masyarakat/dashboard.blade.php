@@ -22,6 +22,10 @@
         justify-content: center;
         padding: 50px 0 100px 0;
     }
+    h5{
+      margin-left: 45px;
+
+    }
 </style>
 
 <body>
@@ -34,10 +38,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{url('masyarakat/laporan')}}">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Tentang Laporan</a>
+            <a class="nav-link active" aria-current="page" href="{{url('masyarakat/laporan')}}">Validasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{url('masyarakat/laporan')}}"> Laporan</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -65,6 +75,21 @@
                 <h2>Layanan Aspirasi dan Pengaduan Online Rakyat</h2>
                 <h4>Sampaikan laporan Anda langsung kepada instansi pemerintah berwenang</h3>
             </form>
+        </div>
+        <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">TOTAL ADUAN</h5>
+          </div>
+        </div>
+        <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">ADUAN DALAM PROSES</h5>
+          </div>
+        </div>
+        <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">ADUAN SELESAI</h5>
+          </div>
         </div>
     </div>
 </div>

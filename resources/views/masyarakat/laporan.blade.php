@@ -22,7 +22,7 @@
                 <a class="nav-link" href="#">Laporan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Validasi</a>
+                <a class="nav-link" href="{{url('masyarakat/validasi')}}">Validasi</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Tanggapan</a>
